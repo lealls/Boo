@@ -71,7 +71,7 @@ body{
     text-transform: uppercase;
 }
 
-.container__botao:{
+.container__botao {
     display: none;
 }
 
@@ -110,9 +110,9 @@ body{
     background: ;
     background-position: 1em;
 }
-.corrosel__titulo{
-    color: var(--laranja);
-    background-color: var(--branco);
+.corrosel__titulo {
+    color:var(--laranja);
+    background-color:var(--branco);
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -158,4 +158,109 @@ body{
 
 .botoes {
     display: flex;
+}
+
+
+.descriçao__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descriçao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descriçao__texto {
+    font-size: 14px;
+}
+
+.botoes__ancora {
+    background-color: var(--laranja);
+    padding: 1emn 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+} 
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+.topicos {
+    background: var(--azul);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.topicos__titulos {
+    color: var(--branco);
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__item {
+    margin: 2em 0.5em;
+}
+
+.topicos__link {
+    color: var(--branco);
+    padding: 1em;
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo {
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul);
+}
+
+.contato__email::placeholder{
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url() no-repeat 5%;
+    padding-left: 2em;
+}
+hr{
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--branco);
+    padding: 1em;
 }
