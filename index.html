@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="portugues">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOO Livraria</title>
-    <link rel="styleheet" href="reet.css">
+    <link rel="styleheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.google.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <link rel="styleheet" href="style.css">
 </head>
+
 <body>
    <header class="cabecalho">
       <div class="container">
@@ -114,24 +121,93 @@
         </div>
         <div class="swiper-slide"><img src="" alt="livro sobre janva">
      </div>
-     <div class="swiper-slide"><img src="" alt="livro sobre janva">
-    <div class="swiper-slide"><img src="" alt="livro sobre janva">
+     <div class="swiper-slide"><img src="" alt="livro guia">
+     <div class="swiper-slide"><img src="" alt="livro sobre portugol">
+     <div class="swiper-slide"><img src="" alt="livro acessibilidade">
+    </div>
    </section>
 
+   <!-- If we need navigation buttons -->
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
 
+   <div class="card">
+     <!-- 1° linha -->
+     <div class="card_descricao">
+      <!-- 1° coluna -->
+      <div class="descricao">
+        <img src="" alt="avaliacao 5 estrelas">
+        <h3 class="descricao_titulo">autora do mes</h3>
+        <h2 class="descricao_titulo-livro">juliana agarivok</h2>
+        <p class="descricao_texto">analista de sistemas e escritora, juliana é especialista.
+        </p>
+      </div>
 
+      <!-- 2 ° linha-->
+      <div class="card_botoes">
+        <!-- 1° coluna -->
+        <ul class="botoes">
+          <li class="botoes_item"><img src="" alt="favoritar livro"></li>
+          <li class="botoes_item"><img src="" alt="adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2° coluna -->
+        <a href="#" class="botoes_ancora">saiba mais</a>
+      </div>
+    </div>
+    
+    <section class="topicos">
+      <h2 class="topicos_titulo">topicos visitados recentemente</h2>
+      <ul class="topicos_lista">
+        <li class="topicos_item"><a href="#" class="topicos_link">Android</a></li>
+        <li class="topicos_item">
+          <a href="#" class="topicos_link">equacao</a>
+        </li>
+        <li class="topicos_item">
+          <a href="#" class="topicos_link">matriz</a>
+        </li>
+        <li class="topicos_item">
+          <a href="#" class="topicos_link">logica</a>
+        </li>
+        <li class="topicos_item">
+          <a href="#" class="topicos_link">calculo</a>
+        </li>
+        <li class="topicos_item">
+          <a href="#" class="topicos_link">jogos</a>
+        </li>
+        <li class="topicos_item">
+          <a href="#" class="topicos_link">modelagem</a>
+        </li>
+        <li class="topicos_item">
+          <a href="#" class="topicos_link">java</a>
+        </li>
+      </ul>
+    </section>
 
+    <section class="contato">
+      <h2 class="contato_titulo">fique por dentro das novidades</h2>
+      <p class="contato_texto">
+        atualizacoes de e-books, novos livros, promocoes e outros.
+      </p>
+      <input type="email" placeholder="cadastre seu email" class="contato_email" />
+    </section>
 
+    <hr />
 
-
-
-
-
-
-
-
-
-
-
+    <footer class="rodape">
+      <h2 class="rodape_titulo">grupo alura</h2>
+    </footer>
+    
+    <script src=""></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spacebetween: 10,
+        slidesperview: 3,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
 </body>
+
 </html>
