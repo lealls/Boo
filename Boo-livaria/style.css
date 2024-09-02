@@ -155,6 +155,7 @@ body {
     }
 
     .opcoes__item {
+        
         padding: 2em 1em;
     }
 
@@ -327,6 +328,7 @@ body {
 .botoes__item {
     margin: 0 0.5em;
     list-style-type: none;
+    width: 10%;
 }
 
 .botoes__ancora {
