@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yasmin</title>
+    <title>BOO Livraria</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
                     <a href="#" class="lista-menu__link">Mais lidos</a>
                 </li>
             </ul>
-            <img src="logo-removebg-preview.png" alt="Logo da BOO" class="container__imagem">
+            <img src="logos/logo-removebg-preview.png" alt="Logo da BOO" class="container__imagem">
             <h1 class="container__titulo"><b class="container__titulo--negrito">B00</b>Livros</h1>
         </div>
 
@@ -51,46 +51,38 @@
 
             <ul class="lista-menu">
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Invocacao do mal</a>
+                    <a href="#" class="lista-menu__link">Livros</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Goosebumps</a>
+                    <a href="#" class="lista-menu__link">Filmes</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Chuck</a>
+                    <a href="#" class="lista-menu__link">Series</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Rua do Medo</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Ver mais</a>
+                    <a href="#" class="lista-menu__link">Cartaz</a>
                 </li>
             </ul>
-
-            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+          <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
             <li class="opcoes__item"><a href="#" class="opcoes__link">Meu historico</a></li>
         </ul>
 
         <div class="container">
-            <a href="#"><img src="estrela2.png" alt="Meus favoritos"
+            <a href="#"><img src="logos/estrela2.png" alt="Meus favoritos"
                     class="container__imagem container__imagem-transparente"></a>
-            <a href="#" class="container-link">
-                <img src="carrinho-de-compras.png" alt="Carrinhos de compras" class="container__imagem">
-                <p class="container__texto">Minha sacola</p>
-            </a>
-            <a href="#" class="container__link">
-                <img src="usuario-de-perfil.png" alt="Meu perfil" class="container__imagem">
+           
+            <a href="#" class="container__link">                
+                <img src="logos/circle.png" alt="Meu perfil" class="container__imagem">
                 <p class="container__texto">Meu perfil</p>
             </a>
         </div>
     </header>
     <section class="banner">
-        <h2 class="banner-titulo">Ja sabe por onde comecar?</h2>
-        <p class="banner-texto">Encontre em nossa estante o que precisa para entreter sua vida!</p>
-        <input type="search" class="banner-pesquisa" placeholder="Qual sera sua proxima leitura?">
+        <h2 class="banner-titulo">Faça uma escolha de arrepiar!</h2>
+        <input type="search" class="banner-pesquisa" placeholder="Pesquise aqui">
     </section>
     <section class="carrossel">
-        <h2 class="carrossel-titulo">Novos lancamentos</h2>
+        <h2 class="carrossel-titulo">Mais recomendados</h2>
         <!-- Slider main container -->
         <div class="carrossel-container">
             <div class="swiper">
@@ -100,69 +92,17 @@
 
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide"><img src="img carol/image.jpeg"
-                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
-                    <div class="swiper-slide"><img src="img carol/algebra.jpg"
-                            alt="Livro sobre lideranca em design da alura books"></div>
-                    <div class="swiper-slide"><img src="img carol/Livro-Metodologias-ativas-e-personalizadas-de-aprendizagem.jpg"
-                            alt="Livro sobre javascript assertivo da alurabooks"></div>
-                    <div class="swiper-slide"><img src="img carol/calculo.jpg" alt="Livro Guia front end"></div>
-                    <div class="swiper-slide"><img src="img carol/analise.jpg" alt="Livro sobre portugol"></div>
-                    <div class="swiper-slide"><img src="img carol/educação finaceira.jpg" alt="livro sobre acessibilidade"></div>
-                </div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-
-            <div class="card">
-                <!-- 1º linha -->
-                <div class="card__descricao">
-                    <!-- 1º coluna -->
-                    <div class="descricoo">
-                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                        <h2 class="descricao__titulo-livro">Jogos e gamificação</h2>
-                        <p class="descricao__texto">Cosntruindo jogos que possam deixar o ensino-aprendizegem com outra cara.</p>
-                    </div>
-                    <!-- 2º coluna -->
-                    <img src="img/Angular.svg" class="descricao__imagem">
-                </div>
-
-                <!-- 2º linha -->
-                <div class="card__botoes">
-                    <!-- 1º coluna -->
-                    <ul class="botões">
-                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
-                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
-                    </ul>
-                    <!-- 2º coluna -->
-                    <a href="#" class="botoes__ancora">Saiba mais</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="carrossel">
-        <h2 class="carrossel-titulo">Mais vendidos</h2>
-        <!-- Slider main container -->
-        <div class="carrossel__container">
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide"><img src="img carol/matematica basica.jpg"
-                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
-                    <div class="swiper-slide"><img src="img carol/aula nota 10.jpg"
-                            alt="Livro sobre liderança em design da alura books"></div>
-                    <div class="swiper-slide"><img src="img carol/o pequeno principe.jpg"
-                            alt="Livro sobre javascript assertivo da alurabooks"></div>
-                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro Guia front end"></div>
-                    <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
-                    <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
+                    <div class="swiper-slide"><img src="trilogia 1/IV1.jpg"
+                            alt="Invocacao do mal 1"></div>
+                    <div class="swiper-slide"><img src="trilogia 1/RUA DO MEDO - CAPA DA TRILOGIA 1.jpg"
+                            alt="Rua do Medo"></div>
+                    <div class="swiper-slide"><img src="trilogia 2/SUPERNATURAL.jpg"
+                            alt="Sobrenatural"></div>      
+                    <div class="swiper-slide"><img src="trilogia 1/CHUCKY.jpg"
+                            alt="O boneco assassino"></div>
+                    <div class="swiper-slide"><img src="trilogia 1/OLHOS-FAMINTOS.jpg" alt="Olhos Famintos"></div>
+                    <div class="swiper-slide"><img src="trilogia 1/Panico.jpg" alt="Panico"></div>
+                    <div class="swiper-slide"><img src="trilogia 1/IT A COISA.webp" alt="It a coisa"></div>
                 </div>
 
                 <!-- If we need navigation buttons -->
@@ -175,21 +115,19 @@
                 <div class="card__descricao">
                     <!-- 1º coluna -->
                     <div class="descricao">
-                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
-                        <h3 class="descricao__titulo">Autora do Mês</h3>
-                        <h2 class="descricao__titulo-livro">Caroline de Farias Alves</h2>
-                        <p class="descricao__texto">Professora de Matemática, especilista em Jogos e Gamificações.                    </p>
+                        <h3 class="descricao__titulo">Venha conhecer mais!</h3>
+                        <h2 class="descricao__titulo-livro">Invocacao do Mal</h2>
+                        <p class="descricao__texto">Invocacao do Mal tem sido a trilogia mais assistida durante anos, trazendo arrepios e muito suspense para o publico. Conheca um pouco mais dessa historia. Desde os anos 60, Ed e Lorraine warren sao conhecidos como os detetives paranormais mais famosos do mundo. Lorraine e clarividente ja o Ed e o unico demonologo nao ordenado reconhecido pela igreja catolica dos milhares de casos em toda carreira controversa deles, existe um tao maligno que eles mantiveram em segredo ate agora. Baseado numa historia real.</p>
                     </div>
                     <!-- 2º coluna -->
-                    <img src="img carol/unnamed.jpg" class="descricao__imagem">
+                    <img src="trilogia 2/cronologia.jpg" class="descricao__imagem">
                 </div>
-
+           
                 <!-- 2º linha -->
                 <div class="card__botoes">
                     <!-- 1º coluna -->
                     <ul class="botoes">
-                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
-                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                        
                     </ul>
                     <!-- 2º coluna -->
                     <a href="#" class="botoes__ancora">Saiba mais</a>
@@ -198,29 +136,75 @@
         </div>
     </section>
 
+
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="trilogia 2/O EXORCISMO.webp"
+                            alt="1° lugar"></div>
+                    <div class="swiper-slide"><img src="trilogia 2/UM LUGAR SILENCIOSO.jpg"
+                            alt="2° lugar"></div>
+                    <div class="swiper-slide"><img src="trilogia 2/SORRIA.jpg"
+                            alt="3° lugar"></div>
+                    <div class="swiper-slide"><img src="trilogia 2/ATIVIDADE PARANORMAL.jpg" alt="4° lugar"></div>
+                    <div class="swiper-slide"><img src="trilogia 2/SERRA ELETRICA.jpg" alt="5° lugar"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descricao">
+                    <!-- 1º coluna -->
+                    <div class="descricao">
+                       
+                        
+                <!-- 2º linha -->
+                <div class="card__botoes">
+                    <!-- 1º coluna -->
+                    <ul class="botoes">
+                        
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="topicos">
-        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <h2 class="topicos__titulo">TOPICOS MAIS VISITADOS</h2>
         <ul class="topicos__lista">
             <li class="topicos__item">
-                <a href="#" class="topicos__link">Equação</a>
+                <a href="#" class="topicos__link">Rua do medo</a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">Matriz</a>
+                <a href="#" class="topicos__link">Invocacao 2</a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">Lógica</a>
+                <a href="#" class="topicos__link">Supernatural</a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">Cálculo</a>
+                <a href="#" class="topicos__link">A freira</a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">Jogos</a>
+                <a href="#" class="topicos__link">Panico</a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">Modelagem</a>
+                <a href="#" class="topicos__link">Resident Evil</a>
             </li>
             <li class="topicos__item">
-                <a href="#" class="topicos__link">Código Binario</a>
+                <a href="#" class="topicos__link">Boneco do mal</a>
             </li>
             
         </ul>
@@ -229,7 +213,7 @@
     <section class="contato">
         <div class="contato__descricao">
             <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <p class="contato__texto">Novos livros, filmes e outros.</p>
         </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
@@ -237,83 +221,25 @@
     <hr />
 
     <footer class="rodape">
-        <h2 class="rodape__titulo">Grupo Ana Vanda</h2>
-        <ul class="lista-rodape">
-            <li class="lista-rodape__titulo">Educação</li>
+       
             <li class="lista-rodape__item">
-                <img src="img/CasaDoCodigo.svg" alt="Logo da casa do codigo">
-                <a href="#" class="lista-rodape__link">Casa do código</a>
+                <img src="" alt="">
+                <a href="#" class="lista-rodape__link"></a>
             </li>
             <li class="lista-rodape__item">
-                <img src="img/Caelum.svg" alt="Logo da caelum">
-                <a href="#" class="lista-rodape__link">Caelum</a>
-            </li>
-        </ul>
-
-        <ul class="lista-rodape">
-            <li class="lista-rodape__titulo">Educação online</li>
-            <li class="lista-rodape__item">
-                <img src="img/Alura.svg" alt="Logo da Alura">
-                <a href="#" class="lista-rodape__link">Alura</a>
+                <img src="" alt="">
+                <a href="#" class="lista-rodape__link"></a>
             </li>
             <li class="lista-rodape__item">
-                <img src="img/AluraEmpresas.svg" alt="Logo da Alura para Empresas">
-                <a href="#" class="lista-rodape__link">Alura para Empresas</a>
+                <img src="" alt="">
+                <a href="#" class="lista-rodape__link"></a>
             </li>
             <li class="lista-rodape__item">
-                <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam">
-                <a href="#" class="lista-rodape__link">Alura LATAM</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/AluraStart.svg" alt="Logo da Alura START">
-                <a href="#" class="lista-rodape__link">Alura Start</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/MusicDot.svg" alt="Logo da Music Dot">
-                <a href="#" class="lista-rodape__link">Music Dot</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua">
-                <a href="#" class="lista-rodape__link">Alura Lingua</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/PM3.svg" alt="Logo da PM3">
-                <a href="#" class="lista-rodape__link">PM3</a>
+                <img src="" alt="">
+                <a href="#" class="lista-rodape__link"></a>
             </li>
         </ul>
 
-        <ul class="lista-rodape">
-            <li class="lista-rodape__titulo">Comunidade</li>
-            <li class="lista-rodape__item">
-                <img src="img/HipstersTech.svg" alt="Logo do Hipsters ponto Tech">
-                <a href="#" class="lista-rodape__link">Hipsters ponto Tech</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/ScubaDev.svg" alt="Logo do Scuba Dev">
-                <a href="#" class="lista-rodape__link">Scuba Dev</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/LayersTech.svg" alt="Logo do Layers ponto Tech">
-                <a href="#" class="lista-rodape__link">Layers ponto Tech</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/LikeABoss.svg" alt="Logo do Like a Boss">
-                <a href="#" class="lista-rodape__link">Like a Boss</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/CarreiraSemFronteira.svg" alt="Logo do Carreira sem fronteiras">
-                <a href="#" class="lista-rodape__link">Carreira sem fronteiras</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs">
-                <a href="#" class="lista-rodape__link">Hipsters ponto jobs</a>
-            </li>
-            <li class="lista-rodape__item">
-                <img src="img/GUJ.svg" alt="Logo do GUJ">
-                <a href="#" class="lista-rodape__link">GUJ</a>
-            </li>
-        </ul>
-    </footer>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
@@ -328,4 +254,14 @@
     </script>
 </body>
 
+</html>
+
+    <footer>
+        <p>&copy; 2024 BOO LIVRARIA. Alguns livros são restritos pelo catálogo. Contato: livrariaBOO@gmail.com</p>
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+</body>
 </html>
